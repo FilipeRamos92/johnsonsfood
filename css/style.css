@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    height: 150px;
+    border-radius: 100px;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #FFF3DC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.apresentacao {
+    display: flex;
+    margin: 10%;
+    align-items: center;
+    justify-content: space-between;
+    color: #9B4723;
+}
+
+.apresentacao__imagem {
+     -webkit-filter: drop-shadow(10px 10px 10px #2E4B32);
+    filter: drop-shadow(10px 10px 10px #2E4B32);
+    height: 460px;
+    width: 500px;
+}
+
+.apresentacao__conteudo {
+    width: 800px;
+    text-align: justify;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 16px;
+}
+
+.rodape {
+    text-align: center;
+    color: #4C6A4D;
+}
+
+
+/* 1. Laranja queimado (#C25C2E)
+Mais escuro (sombras/botões): #9B4723
+
+Mais claro (hover/detalhes): #D9764A
+
+2. Laranja claro (#E2A455)
+Mais escuro (tipografia/acento): #C68436
+
+Mais claro (fundos): #F6C88C
+
+3. Verde escuro (#4C6A4D)
+Mais escuro (destaques): #2E4B32
+
+Mais claro (background suave): #739873
+
+4. Creme (#F2D7A0)
+Mais escuro (texto): #D6BA80
+
+Mais claro (background principal): #FFF3DC */
